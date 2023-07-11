@@ -1,10 +1,19 @@
-English version Main task
-1. Implement kNN algorithm for classification problem (or for regression problem, it depends on your variant). The code should implement Parzen-window method from the lecture.
-2. For the dataset from your variant:
-a. Try to tune parameter ‘k’ and estimate classification or regression quality metrics:
-i. For classification: Precision/Recall https://en.wikipedia.org/wiki/Precision_and_recall#Precision
-              Практика 2. kNN, LOO, STOLP 1
-ii. For regression: r2 https://scikit-learn.org/stable/modules/model_evaluation.html#r2-score b. Implement Leave-one-out algorithm and find optimal hyperparameter ‘k’ value.
-c. For optimal ‘k’ value compare your implementation with scikit-learn version of the kNN algorithm:
-i. Regression task: https://scikit- learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html#sklearn.neighbors.KNeighborsR
-ii. Классификация: https://scikit- learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsCla
+Machine Learning Project - kNN Algorithm Implementation
+Main Tasks
+This project involves the implementation of the k-Nearest Neighbors (kNN) algorithm for a classification problem, using the Parzen-window method. The tasks are as follows:
+
+Implement kNN Algorithm: Implement the kNN algorithm specifically for a classification problem, based on the provided variant. The code should implement the Parzen-window method as covered in the lectures.
+
+Dataset Exploration:
+
+a. Tune Parameter 'k': Experiment with the 'k' parameter in the algorithm and estimate the classification quality metrics. For classification, consider Precision/Recall as the evaluation metrics. More information about these metrics can be found at this link.
+
+b. Implement Leave-One-Out (LOO) Algorithm: Implement the Leave-one-out algorithm to find the optimal value for the hyperparameter 'k'.
+
+c. Compare with Scikit-Learn's kNN: For the optimal 'k' value, compare your implementation with the kNN algorithm provided by Scikit-learn. The resources for Scikit-learn's version of kNN for regression and classification tasks are as follows:
+
+i. Regression task: Visit the documentation here.
+
+ii. Classification task: Visit the documentation here.
+
+By following these steps, this project aims to provide a hands-on experience with implementing a common machine learning algorithm, tuning its parameters, and evaluating its performance.
